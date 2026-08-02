@@ -1,0 +1,9 @@
+{
+  "name": "course-progress-csv-download",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export:report": "node --experimental-strip-types src/course_report_export.ts"
+  }
+}
